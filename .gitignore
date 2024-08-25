@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+db.sqlite3
+*.sql
+*.sqlite3-shm
+*.sqlite3-wal
+
+# If you are using PostgreSQL, you can include this:
+*.psql
+*.pg_dump
+
+# Django migrations
+**/migrations/*
+**/migrations/__pycache__/
+!**/migrations/__init__.py
+
+# Media and static files
+media/
+staticfiles/
+static/
+uploads/
+
+# Local environment variables
+.env
+*.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.cache
+.pytest_cache/
+
+# Mac OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows shortcuts
+Desktop.ini
